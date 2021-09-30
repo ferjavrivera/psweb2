@@ -6,6 +6,7 @@ See `Dockerfile` for more details
 
 Referenced in:
 [![CI to Github Container Registry](https://github.com/ferjavrivera/psweb2/actions/workflows/github_registry.yml/badge.svg)](https://github.com/ferjavrivera/psweb2/actions/workflows/github_registry.yml)
+[![CI to Github Container Registry](https://github.com/ferjavrivera/psweb2/actions/workflows/github_registry.yml/badge.svg)](https://github.com/ferjavrivera/psweb2/actions/workflows/github_registry.yml)
 - [Docker Deep Dive](https://www.amazon.com/Docker-Deep-Dive-Nigel-Poulton/dp/1521822808/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=) 
 - Getting Started with Docker video course (pluralsight.com)
 

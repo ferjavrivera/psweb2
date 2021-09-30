@@ -3,7 +3,7 @@
 FROM alpine
 
 
-LABEL org.opencontainers.image.source https://github.com/ferjavrivera/psweb
+LABEL org.opencontainers.image.source https://github.com/ferjavrivera/psweb2
 # Install Node and NPM
 RUN apk add --update nodejs npm curl
 

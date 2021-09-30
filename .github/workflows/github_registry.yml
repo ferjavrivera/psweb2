@@ -32,7 +32,7 @@ jobs:
 
       
       - name: Cache docker layers
-        uses: actions/cache@2
+        uses: actions/cache@v2
         with:
           path: /temp/.buidx-cache
           key: ${{ runner.os }}-buidx-${{github.sha}}

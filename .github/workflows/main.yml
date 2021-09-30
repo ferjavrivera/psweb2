@@ -15,9 +15,11 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+
 build:
    runs-on: ubuntu-latest
 
+steps:
 
 -name: Checamos el repo
  uses: actions/checkout@v2
@@ -38,7 +40,7 @@ build:
     context: ./
     file: ./Dockerfile
     push: true
-    tags: ${{secrets.DOCKER_USERNAME}}/psweb.latest
+    tags: ${{secrets.DOCKER_USERNAME}}/ferr.latest
     
  -name: Image digest
    run: echo ${{steps.docker_build.outputs.digest}}

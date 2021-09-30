@@ -2,8 +2,8 @@
 # Linux x64
 FROM alpine
 
-LABEL maintainer="nigelpoulton@hotmail.com"
 
+LABEL org.opencontainers.image.source https://github.com/ferjavrivera/psweb
 # Install Node and NPM
 RUN apk add --update nodejs npm curl
 

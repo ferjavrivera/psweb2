@@ -41,7 +41,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME}}/psweb2:latest
+          tags: ${{ secrets.DOCKER_USERNAME}}/42681379/ferr:latest
           
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}

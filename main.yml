@@ -1,4 +1,13 @@
-runs-on:
+name: CI to Docker Hub
+
+on:
+push: 
+
+
+
+jobs:
+build:
+runs-on: ubuntu-latest
 
 
 -name: Checamos el repo

@@ -9,8 +9,8 @@ pipeline {
 
     stage('Bees bees again') {
       steps {
-        echo 'bees'
         echo 'bees bees again'
+        echo 'buzz buuz again'
       }
     }
 
